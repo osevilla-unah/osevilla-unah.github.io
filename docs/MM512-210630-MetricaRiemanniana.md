@@ -94,6 +94,7 @@ $$
 
 En otras palabras, la matriz de la forma bilineal en un punto con coordenadas (u,v) está dada por:
 <div>
+$$
 \begin{pmatrix}
 1 + v\pow2 & uv \\\\
 uv & 1+v\pow2
@@ -103,6 +104,7 @@ uv & 1+v\pow2
 E & F \\\\
 F & G
 \end{pmatrix}
+$$
 </div>
 
 Observe que esta matriz es la identidad en (0,0).
