@@ -219,7 +219,10 @@ Es decir, un campo normal da información sobre la curvatura tambien. Para ello,
 
 ## Derivada covariante. Derivación de campos vectoriales. Transporte paralelo.
 
-Históricamente, para una variedad M en $\RRn$, la derivada covariante de un campo vectorial X en la dirección $v=\alpha'(0) \in T_pM$ se tomó como la proyección en el espacio tangente de la derivada conocida
+Históricamente, para una variedad M en $\RRn$, la derivada covariante de
+un campo vectorial X en la dirección $v=\alpha'(0) \in T_pM$ se tomó como
+la proyección en el espacio tangente de la derivada conocida
+
 $$
 \mathrm{proy}_{T_pM}{\frac{\dd}{\dd t}X(\alpha(t)) \mid _{t=0}}
 $$
@@ -232,15 +235,17 @@ Para tener notación, llame $\chi(M)$ al espacio de campos vectoriales $C^\infty
 
 En general, se define una **conexión afín** por lo siguiente:
 
-$\def\cM{\chi(M)}$$\def\DM{\mathcal{D}(M)}$
+$\def\cM{\chi(M)}$ $\def\DM{\mathcal{D}(M)}$
 **Def.** Una *conexión afín* $\nabla$ en una variedad diferenciable M es un operador
+
 $$
 \cM \times \cM \to \cM
 $$
+
 tal que $\nabla_X Y$ :
 1. es lineal en X  
 2. es aditivo en Y  
-3. y para todos $X, Y \in \cM$ y funciones $f,g\in \DM$:
+3. y para todos $X, Y \in \cM$ y funciones $f,g\in \DM$:  
 $\nabla_X(fY) = X[f]Y + f\nabla_X Y$ 
 
 Observe que se define la conexión afín en M, no se necesita información del espacio ambiente.
@@ -250,10 +255,12 @@ Esto permite definir la derivada covariante. Siguiendo el libro de Do Carmo la d
 $\def\Dt#1{\frac{\mathrm{D} #1}{\dd t}}$
 $\def\DDt{\frac{\mathrm{D}}{\dd t}}$
 $\def\dt#1{\frac{\mathrm{d} #1}{\dd t}}$
-**Def** Para una curva c sobre una variedad diferenciable M, existe una única correspondencia que asocia a un campo vectorial V sobre c otro campo $\Dt{V}$ llamado derivada covariante de V a lo largo de c, tal que:
+**Def** Para una curva c sobre una variedad diferenciable M,
+existe una única correspondencia que asocia a un campo vectorial
+V sobre c otro campo $\Dt{V}$ llamado derivada covariante de V a lo largo de c, tal que:  
 1) $\DDt(V+U) = \Dt{V} + \Dt{U}$  
-2) $\DDt(fV) = (\dt{f})V + f\Dt{V}$
-3) Si $V = Y\mid _ c$ entonces $\Dt{V} = \nabla_{c'(t)}Y$
+2) $\DDt(fV) = (\dt{f})V + f\Dt{V}$  
+3) Si $V = Y\mid _ c$ entonces $\Dt{V} = \nabla_{c'(t)}Y$  
 
 Observe que esta definición relaciona la derivada covariante con la conexión afín.
 
@@ -273,6 +280,7 @@ Ahora vamos a estudiar una variedad N inmersa (embebida, embedded) en una varied
 * De esta forma, podemos descomponer cualquier campo sobre N en una parte tangente a N y otra parte ortogonal a N.
 
 Dado un campo U normal y unitario sobre N, se puede definir un operador:
+
 $$
 S: \cM \to \cM: X \mapsto -\nabla_X(U)
 $$
@@ -282,6 +290,7 @@ Este operador se llama **operador de forma** asociado a U.
 Este operador de forma, da intuitivamente la información de la curvatura así como en una curva plana la variación de N da información sobre la curvatura.
 
 Un operador asociado al operador de forma se llama **segunda forma fundamental**:
+
 $$
 \mathrm{II}(X)= <S(X),X>
 $$
