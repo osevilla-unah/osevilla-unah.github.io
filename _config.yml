@@ -1,2 +1,23 @@
 theme: jekyll-theme-cayman
 title: información, cursos, etc
+author: Oswaldo Sevilla
+
+language: en
+date_format: '%Y-%m-%d'
+
+feed:
+  path: atom.xml
+
+plugins:
+ - jemoji
+ - jekyll-sitemap
+ - jekyll-feed
+
+rss:
+
+mathjax:
+  enable: false
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+
