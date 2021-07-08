@@ -4,9 +4,10 @@
 <script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
 -->
 
-$\def\RR{\Bbb{R}}$$\def\RRn{\RR^n}$
+$\def\RR{\Bbb{R}}$
+$\def\RRn{\RR^n}$
 $\def\PP{\Bbb{P}}$ $\def\PPn{\PP^n}$
-$\def\powm{^{-1}}$$\def\powb{^{2}}$$\def\pow{^}$
+$\def\powm{^{-1}}$ $\def\powb{^{2}}$ $\def\pow{^}$
 
 # Espacio tangente, campos vectoriales, métrica Riemanniana
 
