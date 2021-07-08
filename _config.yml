@@ -9,8 +9,6 @@ feed:
   path: atom.xml
 
 plugins:
- - jemoji
- - jekyll-sitemap
  - jekyll-feed
 
 rss:
