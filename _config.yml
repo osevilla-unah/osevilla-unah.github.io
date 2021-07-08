@@ -15,9 +15,4 @@ plugins:
 
 rss:
 
-mathjax:
-  enable: true
-  per_page: true
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
-
 
