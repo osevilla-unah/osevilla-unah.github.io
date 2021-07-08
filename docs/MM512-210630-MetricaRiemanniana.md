@@ -118,11 +118,13 @@ Esta métrica $g$, tiene una estructura respecto a su evaluación en el espacio 
 El tensor métrico, por su definición y significado, permite en principio definir y calcular la longitud de curvas rectificables (no estrictamente de todas las curvas). Tambien da una noción de medida de área.
 
 *Longitud de una curva:* La longitud de una curva $\alpha:I\to M$ en una variedad $M$ con métrica $g$ es
+
 $$
 \ell(\alpha) = \int_I{\sqrt{g(\alpha'(s),\alpha'(s))}\d s}
 $$
 
 Esto se simplifica, _para una superficie_ y dada una carta, a:
+
 $$
 \ell(\alpha) = \int_I{\sqrt{ E (u')\pow2 + F u'v' + G (v')\pow2 } \d s}
 $$
@@ -136,18 +138,25 @@ G&=g(\p{v},\p{v})
 \end{align}
 $$
 
-La expresión subradical $E (u')\pow2 + F u'v' + G (v')\pow2$ se llama la primera forma fundamental de la superficie $M$.
+La expresión subradical $E (u')\pow2 + F u'v' + G (v')\pow2$ se llama la
+primera forma fundamental de la superficie $M$.
 
-Observe que para una variedad de dimensiones más grandes, la expresión es más extensa pero su construcción es natural.
+Observe que para una variedad de dimensiones más grandes, la expresión es más extensa
+pero su construcción es natural.
 
 **Ejercicio** Para la superficie $M:x\pow2 + y\pow2 -z\pow2 -1 =0$, y la curva $\alpha:[-1,1]\to M: t\mapsto (1,t,t)$, encuentre la longitud en $I=[-1,1]$. Observe que, curiosamente esta es una recta propiamente. Encuentre una carta, la expresión del tensor métrico ahí, las coordenadas de la curva, la primera forma fundamental, y calcule la longitud en ese intervalo $I$.
 
 Estos son ejemplos donde el tensor métrico está dado naturalmente por la estructura ambiente, pero en general un tensor métrico se puede asignar a una variedad diferenciable sin tener que pensar en un espacio ambiente. De hecho, se puede pensar en el espacio de todas las métricas que se le pueden dar a una variedad, y este espacio en sí mismo es sumamente interesante.
 
-Para calcular el volumen de una variedad M orientable de dimensión n, tenemos que para una base $(\partial_1,\dots,\partial_n)$, el elemento de volumen (que es naturalmente una forma diferencial de volumen) está dado por el valor absoluto de
+Para calcular el volumen de una variedad M orientable de dimensión n,
+tenemos que para una base $(\partial_1,\dots,\partial_n)$,
+el elemento de volumen (que es naturalmente una forma diferencial de volumen)
+está dado por el valor absoluto de
+
 $$
 \det(\partial_1,\dots,\partial_n)
 $$
+
 Si escogemos un campo de marcos $E_i$ (es decir, en cada punto asignamos un marco ortonormal), entonces podemos escribir $\partial_i = \sum_{k}{a_{i,k}E_k}$ . Así, se verifica que el tensor métrico
 está dado por
 $$
@@ -169,7 +178,16 @@ $$
 
 ## Derivadas y marcos
 
-El sistema de Frenet permite expresar las derivadas a lo largo de una curva de un sistema de referencia. Esto permite tener el concepto no solo de derivada direccional de funciones escalares, sino que permite derivar funciones vectoriales sobre la curva. En el caso de las ecuaciones de Frenet-Serret, lo que tenemos es la derivación de campos vectoriales (más precisamente, de *marcos*) a lo largo de la curva, es decir, en la dirección de la tangente. Esta derivada la denotamos, siguiendo una notación un poco informal ahora, como $\nabla_T E$, donde E es uno de los campos vectoriales de forman parte del marco (es decir, es T, N o B):
+El sistema de Frenet permite expresar las derivadas a lo largo de una curva
+de un sistema de referencia. Esto permite tener el concepto no solo de
+derivada direccional de funciones escalares, sino que permite derivar
+funciones vectoriales sobre la curva. En el caso de las ecuaciones
+de Frenet-Serret, lo que tenemos es la derivación de campos vectoriales
+(más precisamente, de *marcos*) a lo largo de la curva, es decir, en
+la dirección de la tangente. Esta derivada la denotamos, siguiendo una notación
+un poco informal ahora, como $\nabla_T E$, donde E es uno de los campos vectoriales
+de forman parte del marco (es decir, es T, N o B):
+
 $$
 \begin{align}
 T' &=\nabla_T T = \kappa N \\\\
