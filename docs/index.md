@@ -1,7 +1,9 @@
 # Personal Page of Oswaldo Sevilla
 
 I'm currently a permanent professor at the
-School of Mathematics of [UNAH](www.unah.edu.hn)
+School of Mathematics of [UNAH](www.unah.edu.hn),
+coordinating a Colloqium of the School of Mathematics.
+
 
 ## Research interests
 
